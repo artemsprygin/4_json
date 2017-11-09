@@ -1,10 +1,10 @@
 # Prettify JSON
 
-[TODO. There will be project description]
+This amazing tool developed for making JSON beatiful and simple
 
 # Quickstart
 
-[TODO]
+Just input path to json file and get readable JSON
 
 Example of script launch on Linux, Python 3.5:
 
