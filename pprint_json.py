@@ -14,4 +14,5 @@ def pretty_print_json(data):
 
 if __name__ == '__main__':
     raw_json = load_data(sys.argv[1])
-    print(pretty_print_json(raw_json))
+    final_json = pretty_print_json(raw_json)
+    print (final_json)
