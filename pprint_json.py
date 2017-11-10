@@ -3,13 +3,13 @@ import sys
 
 
 def load_data(filepath):
-    with open(filepath, 'r') as handle:
-        raw_json = json.load(handle)
+    with open(filepath, 'r') as in_json:
+        raw_json = json.load(in_json)
     return raw_json
 
 
-def pretty_print_json(data):
-    return json.dumps(data, indent=4)
+def pretty_print_json(json_data):
+    return json.dumps(json_data, indent=4)
 
 
 if __name__ == '__main__':
