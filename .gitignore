@@ -1,3 +1,17 @@
 
 *.pyc
 *.json
+myenv/bin/activate
+*.csh
+*.fish
+myenv/bin/easy_install
+*.6
+myenv/bin/pbr
+myenv/bin/pip
+myenv/bin/pip3
+myenv/bin/python
+myenv/bin/python3
+*.sh
+myenv/bin/virtualenv
+myenv/bin/virtualenv-clone
+*.cfg
